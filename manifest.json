@@ -22,12 +22,38 @@
       "format": "uri"
     },
     
-    "imagesUrls": {
-      "description": "An array of images urls, presented on page of your project",
+    "files": {
+      "description": "An array of media files urls, presented on page of your project. It may be images, videos etc",
       "type": "array",
       "items": {
-        "type": "string",
-        "format": "uri"
+        "type": "object",
+        "required": ["url"],
+        "properties": {
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    },
+
+    "whitepaperUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+
+    "docsUrls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required":["url"],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }          
+        }
       }
     },
 
@@ -64,14 +90,25 @@
       "description": "Links to social networks of your projects. We support only described below",
       "type": "object",
       "properties": {
-        "twitterUrl": {
-          "type": "string",
-          "format": "uri"
+        "twitter": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/social-link"
+          }
         },
 
-        "discordUrl": {
-          "type": "string",
-          "format": "uri"
+        "discord": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/social-link"
+          }
+        },
+
+        "telegram": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/social-link"
+          }
         }
       }
     },
@@ -79,6 +116,28 @@
     "launchDate": {
       "type": "string",
       "format": "date"
+    },
+
+    "token": {
+      "type": "object",
+      "required": [
+        "name",
+        "chainId",
+        "symbol",
+        "decimals",
+        "address",
+        "logoURI",
+        "version"
+      ],
+      "properties": {
+        "name": { "type": "string" },
+        "chainId": { "type": "integer" },
+        "symbol": { "type": "string" },
+        "decimals": { "type": "integer" },
+        "address": { "type": "string" },
+        "logoURI": { "type": "string" },
+        "version": { "type": "number" }
+      }
     },
 
     "keywords": {
@@ -97,5 +156,24 @@
     "projectUrl",
     "types",
     "social"
-  ]
+  ],
+
+  "definitions": {
+    "social-link": {
+      "type": "object",
+      "required": ["link"],
+      "properties": {
+        "link": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string"
+        },
+        "lang": {
+          "description": "If undefined, will appear for any language",
+          "type": "string"
+        }
+      }
+    }
+  }
 }
