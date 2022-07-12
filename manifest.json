@@ -17,11 +17,13 @@
     },
 
     "logoUrl": {
+      "description": "If you have wide logo, you should leave shortname empty",
       "type": "string",
       "format": "uri"
     },
     
     "imagesUrls": {
+      "description": "An array of images urls, presented on page of your project",
       "type": "array",
       "items": {
         "type": "string",
@@ -35,6 +37,7 @@
     },
     
     "types": {
+      "description": "The types of software, your project relates to",
       "type": "array",
       "items": {
         "enum": [
@@ -58,6 +61,7 @@
     },
 
     "social": {
+      "description": "Links to social networks of your projects. We support only described below",
       "type": "object",
       "properties": {
         "twitterUrl": {
@@ -75,6 +79,14 @@
     "launchDate": {
       "type": "string",
       "format": "date"
+    },
+
+    "keywords": {
+      "description": "Keywords will help user to find your project in search !",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
   },
 
@@ -82,7 +94,6 @@
     "fullname",
     "description",
     "logoUrl",
-    "imagesUrls",
     "projectUrl",
     "types",
     "social"
