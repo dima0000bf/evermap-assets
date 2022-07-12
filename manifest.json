@@ -70,8 +70,14 @@
           "format": "uri"
         }
       }
-    }    
+    },
+
+    "launchDate": {
+      "type": "string",
+      "format": "date"
+    }
   },
+
   "required": [
     "fullname",
     "description",

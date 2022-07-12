@@ -11,5 +11,5 @@ Or you can add declaration via [web IDE](https://github.dev/dima0000bf/evermap-a
 
 1. create `.yaml` or `.json` file in `projects/` folder
 2. fill your file accordingly to `manifest.json`
-3. add path to your declaration in [projects/index.json]()
+3. add path to your declaration in [projects/index.json](https://github.com/dima0000bf/evermap-assets/blob/master/projects/index.json)
 4. make a pull request
