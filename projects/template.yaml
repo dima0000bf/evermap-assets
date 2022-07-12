@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../manifest.json
+$schema: "../manifest.json"
+
+shortname: Temp
+
+fullname: Template project
+
+description: Its a some template project
+
+projectUrl: http://template.org
+
+logoUrl: http://template.org/logo.svg # png jpeg ...
+
+imagesUrls:
+  - http://template.org/preview0.png
+  - http://template.org/preview1.png
+  - http://template.org/preview2.png
+
+social:
+  twitterUrl: https://twitter.com/template_org
+
+types:
+  - defi
+  - service
+  - nft
+  - service

@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+
+    "fullname": {
+      "type": "string"
+    },
+    
+    "shortname": {
+      "description": "Optional. If unset, preview chip will contain only icon. Useful, when you have wide icon",
+      "type": "string"
+    },
+
+    "description": {
+      "type": "string"
+    },
+
+    "logoUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    
+    "imagesUrls": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+
+    "projectUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    
+    "types": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "app",
+          "cross-chain",
+          "community",
+          "dev",
+          "dex",
+          "defi",
+          "exchange",
+          "game",
+          "governance",
+          "nft",
+          "payment",
+          "service",
+          "staking",
+          "tools",
+          "wallet"
+        ]
+      }
+    },
+
+    "social": {
+      "type": "object",
+      "properties": {
+        "twitterUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+
+        "discordUrl": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    }    
+  },
+  "required": [
+    "fullname",
+    "description",
+    "logoUrl",
+    "imagesUrls",
+    "projectUrl",
+    "types",
+    "social"
+  ]
+}
