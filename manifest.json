@@ -92,23 +92,17 @@
       "properties": {
         "twitter": {
           "type": "array",
-          "items": {
-            "$ref": "#/definitions/social-link"
-          }
+          "items": { "$ref": "#/definitions/social-link" }
         },
 
         "discord": {
           "type": "array",
-          "items": {
-            "$ref": "#/definitions/social-link"
-          }
+          "items": { "$ref": "#/definitions/social-link" }
         },
 
         "telegram": {
           "type": "array",
-          "items": {
-            "$ref": "#/definitions/social-link"
-          }
+          "items": { "$ref": "#/definitions/social-link" }
         }
       }
     },

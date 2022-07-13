@@ -1,3 +1,4 @@
 [
-  "./template.yaml"
+  "./template.yaml",
+  "./template.json"
 ]
