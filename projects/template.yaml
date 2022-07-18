@@ -5,11 +5,12 @@ shortname: Temp
 
 fullname: Template project
 
-description: Its a some template project
+description: Its a template project its a template project its a template project its a template project its a template project its a template project its a template project
 
 projectUrl: http://template.org
 
-logoUrl: http://template.org/logo.svg # png jpeg ...
+# png jpeg svg...
+logoUrl: https://cdn-icons.flaticon.com/png/128/2008/premium/2008813.png?token=exp=1658138241~hmac=79777f747b8464be62badb31058f2b38
 
 token:
   symbol: BOI
@@ -45,9 +46,9 @@ types:
   - nft
 
 keywords:
-  - "earn"
-  - "invest"
-  - "decentra"
-  - "metaverse"
+  - earn
+  - invest
+  - decentra
+  - metaverse
 
 launchDate: "2019-12-13"
