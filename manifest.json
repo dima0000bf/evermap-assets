@@ -61,29 +61,11 @@
       "type": "string",
       "format": "uri"
     },
-    
+
     "types": {
       "description": "The types of software, your project relates to",
       "type": "array",
-      "items": {
-        "enum": [
-          "app",
-          "cross-chain",
-          "community",
-          "dev",
-          "dex",
-          "defi",
-          "exchange",
-          "game",
-          "governance",
-          "nft",
-          "payment",
-          "service",
-          "staking",
-          "tools",
-          "wallet"
-        ]
-      }
+      "items": { "$ref": "#/definitions/project-type" }
     },
 
     "social": {
@@ -153,6 +135,27 @@
   ],
 
   "definitions": {
+    "project-type": {
+      "type": "string",
+      "enum": [
+        "app",
+        "cross-chain",
+        "community",
+        "dev",
+        "dex",
+        "defi",
+        "exchange",
+        "game",
+        "governance",
+        "nft",
+        "payment",
+        "service",
+        "staking",
+        "tools",
+        "wallet"
+      ]
+    },
+    
     "social-link": {
       "type": "object",
       "required": ["link"],
