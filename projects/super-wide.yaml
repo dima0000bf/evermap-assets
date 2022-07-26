@@ -1,16 +1,16 @@
 # yaml-language-server: $schema=../manifest.json
 $schema: "../manifest.json"
 
-shortname: Temp
+# shortname:
 
-fullname: Template project
+fullname: The SUPER wide Template project 350x100 !
 
-description: Its a template project its a template project its a template project its a template project its a template project its a template project its a template project
+description: kek
 
 projectUrl: http://template.org
 
 # png jpeg svg...
-logoUrl: https://img.icons8.com/office/344/crab.png
+logoUrl: https://via.placeholder.com/350x100
 
 token:
   symbol: BOI

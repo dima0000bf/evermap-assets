@@ -1,3 +1,5 @@
 [
-  "./template.yaml"
+  "./template.yaml",
+  "./super-wide.yaml",
+  "./wide.yaml"
 ]
