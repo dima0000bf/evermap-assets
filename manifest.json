@@ -139,6 +139,7 @@
       "type": "string",
       "enum": [
         "app",
+        "bridge",
         "cross-chain",
         "community",
         "dev",
@@ -147,6 +148,8 @@
         "exchange",
         "game",
         "governance",
+        "launchpad",
+        "lending-protocol",
         "nft",
         "payment",
         "service",
