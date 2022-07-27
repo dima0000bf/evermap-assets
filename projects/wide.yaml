@@ -41,9 +41,7 @@ social:
       hint: "Template project twitter account, but korean"
 
 types:
-  - defi
-  - service
-  - nft
+  - governance
 
 keywords:
   - earn
