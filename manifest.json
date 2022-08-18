@@ -94,25 +94,18 @@
       "format": "date"
     },
 
-    "token": {
+    "accounts": {
       "type": "object",
-      "required": [
-        "name",
-        "chainId",
-        "symbol",
-        "decimals",
-        "address",
-        "logoURI",
-        "version"
-      ],
-      "properties": {
-        "name": { "type": "string" },
-        "chainId": { "type": "integer" },
-        "symbol": { "type": "string" },
-        "decimals": { "type": "integer" },
-        "address": { "type": "string" },
-        "logoURI": { "type": "string" },
-        "version": { "type": "number" }
+      "patternProperties": {
+        ".*": {
+          "type":"object",
+          "properties": {
+            "metrics":{
+              "type":"array",
+              "items": { "$ref": "#/definitions/address-metric" }
+            }
+          }
+        }
       }
     },
 
@@ -135,6 +128,16 @@
   ],
 
   "definitions": {
+
+    "address-metric": {
+      "type":"string",
+      "enum": [
+        "tokenBalances",
+        "transactionStatistics",
+        "uniqueCounterParties"
+      ]
+    },
+    
     "project-type": {
       "type": "string",
       "enum": [

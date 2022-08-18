@@ -12,14 +12,17 @@ projectUrl: http://template.org
 # png jpeg svg...
 logoUrl: https://img.icons8.com/office/344/crab.png
 
-token:
-  symbol: BOI
-  address: 0:0000000000000000000000000000000000000000000000000000000000000000
-  chainId: 1
-  decimals: 9
-  name: Boi Coin
-  logoURI: http://template.org/coin-logo.svg
-  version: 2.28
+accounts:
+  0:0000000000000000000000000000000000000000000000000000000000000000:
+    metrics:
+      - tokenBalances
+      - transactionStatistics
+
+  0:a519f99bb5d6d51ef958ed24d337ad75a1c770885dcd42d51d6663f9fcdacfb2:
+    metrics:
+      - tokenBalances
+      - transactionStatistics
+      - uniqueCounterParties
 
 files:
   - url: http://template.org/preview-hdsgAGHSF000
