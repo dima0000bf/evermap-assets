@@ -17,6 +17,7 @@ accounts:
     metrics:
       - tokenBalances
       - transactionStatistics
+      - 123
 
   0:a519f99bb5d6d51ef958ed24d337ad75a1c770885dcd42d51d6663f9fcdacfb2:
     metrics:
