@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
 
@@ -18,8 +18,7 @@
 
     "logoUrl": {
       "description": "If you have wide logo, you should leave shortname empty",
-      "type": "string",
-      "format": "uri"
+      "type": "string"
     },
     
     "files": {
@@ -37,8 +36,7 @@
     },
 
     "whitepaperUrl": {
-      "type": "string",
-      "format": "uri"
+      "type": "string"
     },
 
     "docsUrls": {
@@ -58,8 +56,7 @@
     },
 
     "projectUrl": {
-      "type": "string",
-      "format": "uri"
+      "type": "string"
     },
 
     "types": {
@@ -90,8 +87,7 @@
     },
 
     "launchDate": {
-      "type": "string",
-      "format": "date"
+      "type": "string"
     },
 
     "accounts": {
