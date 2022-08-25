@@ -1,0 +1,19 @@
+{
+  "name": "evermap-assets",
+  "version": "1.0.0",
+  "description": "See [manifest.json](https://github.com/dima0000bf/evermap-assets/blob/master/manifest.json) for schema details",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dima0000bf/evermap-assets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dima0000bf/evermap-assets/issues"
+  },
+  "homepage": "https://github.com/dima0000bf/evermap-assets#readme"
+}
