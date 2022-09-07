@@ -1,0 +1,58 @@
+# yaml-language-server: $schema=../manifest.json
+$schema: "../manifest.json"
+
+shortname: CrazyNFT
+
+fullname: Crazy NFT project
+
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula in nulla ut tincidunt. Cras placerat sed risus eu euismod. Duis molestie, arcu at malesuada facilisis, lorem tortor fringilla risus, eget eleifend nulla massa vitae ante. Cras viverra facilisis libero, a ornare velit vehicula ut. In rhoncus, justo ac pulvinar ornare, nisl ligula sollicitudin orci, nec consectetur est arcu nec felis. Sed finibus, velit nec fermentum efficitur, nulla massa eleifend urna, ut euismod leo nisi id diam. Suspendisse lacinia, felis vitae tincidunt accumsan, tortor neque accumsan diam, ut vehicula augue sem vitae est. Fusce rutrum est dui, ut faucibus massa rutrum sed.
+  Fusce augue ante, ultricies ac diam ut, condimentum fringilla urna. Nulla dapibus nunc arcu, id hendrerit quam rutrum nec. Proin commodo turpis eget arcu ullamcorper tristique. Vivamus sed tempus nisi, eu volutpat nunc. In ullamcorper est non semper accumsan. Sed efficitur purus quis risus fermentum interdum. In hendrerit auctor nunc, sed porttitor orci laoreet quis. Etiam pellentesque lorem et sollicitudin tincidunt. Vestibulum nec eleifend nibh. Quisque laoreet nisi eu suscipit efficitur. Duis et dolor egestas quam vehicula sollicitudin. Fusce a orci eu sem pretium venenatis. Sed nec tincidunt mi. 
+
+projectUrl: http://nft.ru
+
+# png jpeg svg...
+logoUrl: https://cdn-icons-png.flaticon.com/512/5264/5264949.png
+
+accounts:
+  0:0000000000000000000000000000000000000000000000000000000000000000:
+    metrics:
+      - tokenBalances
+      - transactionStatistics
+
+  0:a519f99bb5d6d51ef958ed24d337ad75a1c770885dcd42d51d6663f9fcdacfb2:
+    metrics:
+      - tokenBalances
+      - transactionStatistics
+      - uniqueCounterParties
+
+files:
+  - url: http://nft.ru/preview-hdsgAGHSF000
+  - url: http://nft.ru/lol.png
+  - url: http://nft.ru/model.gltf
+
+docsUrls:
+  - url: http://nft.ru/terms.pdf
+    name: Description
+
+social:
+  twitter: 
+    - link: "https://twitter.com/crazynft"
+      lang: "ru"
+      hint: "Template project twitter account"
+
+    - link: "https://twitter.com/crazy_nft_KO"
+      lang: "ko"
+      hint: "Template project twitter account, but korean"
+
+types:
+  - nft
+  - payment
+  - game
+
+keywords:
+  - NFT
+  - crazy
+  - newMETA
+  - metaverse
+
+launchDate: "2022-08-17"

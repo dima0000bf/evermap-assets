@@ -1,5 +1,7 @@
 [
   "./template.yaml",
   "./super-wide.yaml",
-  "./wide.yaml"
+  "./wide.yaml",
+  "./anydex.yaml",
+  "./crazynft.yaml"
 ]

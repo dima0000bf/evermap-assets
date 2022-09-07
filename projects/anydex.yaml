@@ -1,0 +1,59 @@
+# yaml-language-server: $schema=../manifest.json
+$schema: "../manifest.json"
+
+shortname: AnyDEX
+
+fullname: Any new DEX created
+
+description: Простой набор символов с проверкой на отображение. Hyōji chekku-tsuki no shinpuruna moji setto. 
+  Kumpulan karakter sederhana dengan tampilan cek. 帶有顯示檢查的簡單字符集。
+
+projectUrl: http://anydex.net
+
+# png jpeg svg...
+logoUrl: https://jpeg.org/images/jpeg-home.jpg
+
+accounts:
+  0:0000000000000000000000000000000000000000000000000000000000000000:
+    metrics:
+      - tokenBalances
+      - transactionStatistics
+
+  0:a519f99bb5d6d51ef958ed24d337ad75a1c770885dcd42d51d6663f9fcdacfb2:
+    metrics:
+      - tokenBalances
+      - transactionStatistics
+      - uniqueCounterParties
+
+files:
+  - url: http://anydex.net
+  - url: http://anydex.net
+  - url: http://anydex.net
+
+docsUrls:
+  - url: http://anydex.net
+    name: Description
+
+social:
+  twitter: 
+    - link: "https://twitter.com/anydex"
+      lang: "ru"
+      hint: "Аккаунт разработчиков"
+
+    - link: "https://twitter.com/anydex_ru"
+      lang: "us"
+      hint: "WierdChamp"
+
+types:
+  - dex
+  - dev
+  - exchange
+
+keywords:
+  - DEX
+  - Any
+  - Nevermind
+  - вау
+  - крипта
+
+launchDate: "2023-08-17"
