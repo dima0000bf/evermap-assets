@@ -1,0 +1,60 @@
+# yaml-language-server: $schema=../manifest.json
+$schema: "../manifest.json"
+
+shortname: DAOLipa
+
+fullname: Dua Lipa's DAO
+
+description: I had a premonition that we fell into a rhythm
+  Where the music don't stop for life
+  Glitter in the sky, glitter in my eyes
+  Shining just the way I like
+  If you're feeling like you need a little bit of company
+  You met me at the perfect time
+
+projectUrl: http://vk.ru
+
+# png jpeg svg...
+logoUrl: https://avatars.yandex.net/get-music-content/5496390/178b6b60.p.3889375/m1000x1000
+accounts:
+  0:0000000000000000000000000000000000000000000000000000000000000000:
+    metrics:
+      - tokenBalances
+      - transactionStatistics
+
+  0:a519f99bb5d6d51ef958ed24d337ad75a1c770885dcd42d51d6663f9fcdacfb2:
+    metrics:
+      - tokenBalances
+      - transactionStatistics
+      - uniqueCounterParties
+
+files:
+  - url: http://vk.ru
+  - url: http://vk.ru
+  - url: http://vk.ru
+
+docsUrls:
+  - url: http://vk.ru
+    name: Description
+
+social:
+  instagram: 
+    - link: "https://www.instagram.com/dualipa/"
+      lang: "en"
+      hint: "Template project instagram account"
+
+    - link: "https://twitter.com/crazy_nft_KO"
+      lang: "ko"
+      hint: "Template project twitter account, but korean"
+
+types:
+  - cross-chain
+  - lending-protocol
+
+keywords:
+  - women
+  - DuaDao
+  - firstever
+
+
+launchDate: "2022-09-09"
