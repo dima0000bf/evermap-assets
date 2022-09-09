@@ -1,0 +1,61 @@
+# yaml-language-server: $schema=../manifest.json
+$schema: "../manifest.json"
+
+shortname: Dinner'n'Breakfast
+
+fullname: Dinner and Breakfast launchpad
+
+description: I'm living in that 21st century 
+  Doing something mean to it 
+  Do it better than anybody you ever seen do it
+  Screams from the haters, got a nice ring to it
+  I guess every superhero need his theme music 
+
+projectUrl: http://google.com
+
+# png jpeg svg...
+logoUrl: https://upload.wikimedia.org/wikipedia/commons/1/10/Kanye_West_at_the_2009_Tribeca_Film_Festival_%28cropped%29.jpg
+
+accounts:
+  0:0000000000000000000000000000000000000000000000000000000000000000:
+    metrics:
+      - tokenBalances
+      - transactionStatistics
+
+  0:a519f99bb5d6d51ef958ed24d337ad75a1c770885dcd42d51d6663f9fcdacfb2:
+    metrics:
+      - tokenBalances
+      - transactionStatistics
+      - uniqueCounterParties
+
+files:
+  - url: http://google.com
+  - url: http://google.com
+  - url: http://google.com
+
+docsUrls:
+  - url: http://google.com
+    name: Description
+
+social:
+  instagram: 
+    - link: "https://www.instagram.com/kanyewest/"
+      lang: "en"
+      hint: "Template project instagram account"
+
+    - link: "https://twitter.com/crazy_nft_KO"
+      lang: "ko"
+      hint: "Template project twitter account, but korean"
+
+types:
+  - launchpad
+  - app
+  - governance
+
+keywords:
+  - family
+  - joy
+  - kanyepower
+  - metaverse
+
+launchDate: "2022-08-31"

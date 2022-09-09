@@ -1,0 +1,59 @@
+# yaml-language-server: $schema=../manifest.json
+$schema: "../manifest.json"
+
+shortname: YnwaWallet
+
+fullname: You Will Never Walk Alone Wallet
+
+description: First ever football team wallet here! Enjoy game and enjoy your balances. 
+
+projectUrl: https://www.liverpoolfc.com
+
+# png jpeg svg...
+logoUrl: https://pictures.sports.ru/aaWqZvaQY9b-82ttrpEfwydg_bjOCTI-jqrjEttV4YY/fill/256/256/no/1/czM6Ly9zdGF0X3BpY3R1cmUvVEVBTS9tYWluL2xpdmVycG9vbC5wbmc.png
+
+accounts:
+  0:0000000000000000000000000000000000000000000000000000000000000000:
+    metrics:
+      - tokenBalances
+      - transactionStatistics
+
+  0:a519f99bb5d6d51ef958ed24d337ad75a1c770885dcd42d51d6663f9fcdacfb2:
+    metrics:
+      - tokenBalances
+      - transactionStatistics
+      - uniqueCounterParties
+
+files:
+  - url: https://www.liverpoolfc.com
+  - url: https://www.liverpoolfc.com
+  - url: https://www.liverpoolfc.com
+
+docsUrls:
+  - url: https://www.liverpoolfc.com
+    name: Description
+
+social:
+  instagram: 
+    - link: "https://www.instagram.com/liverpoolfc/"
+      lang: "en"
+      hint: "Template project instagram account"
+  tiktok:
+    - link: "https://www.tiktok.com/@liverpoolfc"
+      lang: "en"
+      hint: "Template project tiktok account"
+  discord:
+    - link: "https://discord.com"
+      hint: "hint"
+
+types:
+  - wallet
+  - service
+  - community
+
+keywords:
+  - liverpool
+  - cryptowallet
+  - staywithcomm
+
+launchDate: "2022-04-10"
